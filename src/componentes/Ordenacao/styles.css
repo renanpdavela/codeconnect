@@ -1,0 +1,26 @@
+.ordenacao {
+  margin: 2em 0;
+  width: 100%;
+}
+
+.ordenacao__itens {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.item__button {
+  font-family: var(--fonte);
+  font-size: 22px;
+  text-decoration: none;
+  background-color: var(--grafite);
+  color: var(--cinza-claro);
+  border: none;
+}
+
+.ativo {
+  text-decoration: underline;
+  color: var(--verde-destaque);
+}
